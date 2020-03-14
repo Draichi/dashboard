@@ -228,7 +228,7 @@
         return this.$route.query.enableRTL;
       },
       isRTL() {
-        return this.$rtl.isRTL;
+        return false;
       },
       bigLineChartCategories() {
         return this.$t('dashboard.chartCategories');
